@@ -1,0 +1,575 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Development Tools\Test Bench\MIPS_design_original\MIPS_System_Syn\simulation\modelsim
+vadder
+IVOD1mcQ_UW63jiiRXSfQf3
+VR4:XbIkd<X908neF9?e9K1
+Z1 dC:\Development Tools\Test Bench\MIPS_design_original\MIPS_System_Syn\simulation\modelsim
+Z2 w1511280355
+Z3 8C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/MIPS_CPU/mipsparts.v
+Z4 FC:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/MIPS_CPU/mipsparts.v
+L0 219
+Z5 OV;L;10.1d;51
+r1
+31
+Z6 !s108 1511305022.833000
+Z7 !s107 C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/MIPS_CPU/mipsparts.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/MIPS_CPU|C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/MIPS_CPU/mipsparts.v|
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work {+incdir+C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/MIPS_CPU} -O0
+!i10b 1
+!s100 :3Sk3Ra5`dfPJM@UL=AHz2
+!s85 0
+!s101 -O0
+vAddr_Decoder
+IC1^NHmzN<0@W^lm:4MAOd0
+VYZUiY@2bCD3RmSiD^JG2z0
+R1
+w1410255862
+8C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Decoder/Addr_Decoder.v
+FC:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Decoder/Addr_Decoder.v
+L0 3
+R5
+r1
+31
+R9
+n@addr_@decoder
+!i10b 1
+!s100 0NT7RBl?4JQkncofam6692
+!s85 0
+!s108 1511305023.351000
+!s107 C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Decoder/Addr_Decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Decoder|C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Decoder/Addr_Decoder.v|
+!s101 -O0
+!s92 -vlog01compat -work work {+incdir+C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Decoder} -O0
+vALTPLL_clkgen
+IM?6TQo>Ye>T`bOTdTmMb_1
+VaU<6ME4_agc_khQ?L:nl:2
+R1
+w1410149952
+8C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Altera_PLL/ALTPLL_clkgen.v
+FC:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Altera_PLL/ALTPLL_clkgen.v
+L0 39
+R5
+r1
+31
+R9
+n@a@l@t@p@l@l_clkgen
+!i10b 1
+!s100 aQgnoOOH0V3L3a]VV;l6H3
+!s85 0
+!s108 1511305023.474000
+!s107 C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Altera_PLL/ALTPLL_clkgen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Altera_PLL|C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Altera_PLL/ALTPLL_clkgen.v|
+!s101 -O0
+!s92 -vlog01compat -work work {+incdir+C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Altera_PLL} -O0
+vALTPLL_clkgen_altpll
+IVM0o8OMOiiYEiD^92EX^[3
+V@cYEllCA3Bo2<VA=PgzJo2
+R1
+w1510334142
+8C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System_Syn/db/altpll_clkgen_altpll.v
+FC:/Development Tools/Test Bench/MIPS_design_original/MIPS_System_Syn/db/altpll_clkgen_altpll.v
+L0 29
+R5
+r1
+31
+R9
+n@a@l@t@p@l@l_clkgen_altpll
+!i10b 1
+!s100 KB9H7RNh6j>YzYHOILGLg1
+!s85 0
+!s108 1511305023.598000
+!s107 C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System_Syn/db/altpll_clkgen_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System_Syn/db|C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System_Syn/db/altpll_clkgen_altpll.v|
+!s101 -O0
+!s92 -vlog01compat -work work {+incdir+C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System_Syn/db} -O0
+valu
+IPlN`f_R=U8g<>zYIa:DEd3
+VejYX:795jcXa79:=j]]Hk1
+R1
+R2
+R3
+R4
+L0 195
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 ?n?N2>@k^gJk@A_UM_bnF3
+!s85 0
+!s101 -O0
+valudec
+!i10b 1
+!s100 bgIBPihZ[DSf:e>K1Z3@f2
+Ig7czmMfQLz7OBV]ifjf@81
+VZ6g?RQINJ[iHK@aUEQPJd1
+R1
+Z11 w1511304944
+Z12 8C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/MIPS_CPU/mips.v
+Z13 FC:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/MIPS_CPU/mips.v
+L0 362
+R5
+r1
+!s85 0
+31
+Z14 !s108 1511305023.714000
+Z15 !s107 C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/MIPS_CPU/mips.v|
+Z16 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/MIPS_CPU|C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/MIPS_CPU/mips.v|
+!s101 -O0
+R9
+R10
+vcontroller
+!i10b 1
+!s100 bGSofh:9H5k6GC1Wg[@JO3
+IOLUXk1IVUU1ZloN9hX8Um0
+V5zG>ca[RAU6nmM`;Da>eS2
+R1
+R11
+R12
+R13
+L0 270
+R5
+r1
+!s85 0
+31
+R14
+R15
+R16
+!s101 -O0
+R9
+R10
+vdatapath
+!i10b 1
+!s100 8U;jRh_CdgYiBGj8:hkdO3
+IjebeI1oSbfo6XPbIEdTo72
+VRcAlj=E[WMe0k7Rm5@PPL2
+R1
+R11
+R12
+R13
+L0 396
+R5
+r1
+!s85 0
+31
+R14
+R15
+R16
+!s101 -O0
+R9
+R10
+vff_DE
+!i10b 1
+!s100 `O=8GS^7DlOHG7UlVJCfb3
+IPK@mAMczofde6JYFTHaVG2
+VL48U8mzbXcAC;aB1N[SmW0
+R1
+R11
+R12
+R13
+L0 119
+R5
+r1
+!s85 0
+31
+R14
+R15
+R16
+!s101 -O0
+R9
+R10
+nff_@d@e
+vff_EM
+!i10b 1
+!s100 F94=2MdaHG:g1?0a`NT@G1
+IiIW`aA59Hl3GQJOGfOg2D0
+VPKJ0:`WVn80EZj>SC^37L3
+R1
+R11
+R12
+R13
+L0 175
+R5
+r1
+!s85 0
+31
+R14
+R15
+R16
+!s101 -O0
+R9
+R10
+nff_@e@m
+vff_FD
+!i10b 1
+!s100 oU?KbQ`L?0?=k4Hi^^UZE1
+IVE2<]6T8XCC9o[U8eVAI81
+V[ohMYLJiNRG2jEe1Z8NQ`3
+R1
+R11
+R12
+R13
+L0 100
+R5
+r1
+!s85 0
+31
+R14
+R15
+R16
+!s101 -O0
+R9
+R10
+nff_@f@d
+vff_MW
+!i10b 1
+!s100 >]Oj;O?5mTE6=fS1@jzl=2
+IH8Xd9J<fWkWnnO;T;P57@1
+V2Il3]S0]ZhfmAGfgASa4]2
+R1
+R11
+R12
+R13
+L0 232
+R5
+r1
+!s85 0
+31
+R14
+R15
+R16
+!s101 -O0
+R9
+R10
+nff_@m@w
+vflopenr
+IkozU6M]l4<DMhcX_`[Pm>2
+Vl[@31Ka9Wak9oGo?2I58:3
+R1
+R2
+R3
+R4
+L0 277
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 m`745]TT5BCXBEnPFFjE?3
+!s85 0
+!s101 -O0
+vflopr
+I7DDSaE8;^z2[]3dD`cT812
+VKfe>keNPnLBlHh<KCg1o52
+R1
+R2
+R3
+R4
+L0 264
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 6dhfgKTh0J=@jc_YoI9C82
+!s85 0
+!s101 -O0
+vforwarding
+!i10b 1
+!s100 V`3EiUG`j:JYa>MjVLGj63
+I]lIUi8fghm3km:W^28g8j1
+V?2eo^:L9gK0jCSM`@HEC32
+R1
+R11
+R12
+R13
+L0 265
+R5
+r1
+!s85 0
+31
+R14
+R15
+R16
+!s101 -O0
+R9
+R10
+vGPIO
+I6MAa@ARQ<4Shf[@6>Vlm53
+VAT1XQY_W6_M^VLzzD2Q3_3
+R1
+Z17 w1410255834
+Z18 8C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/GPIO/GPIO.v
+Z19 FC:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/GPIO/GPIO.v
+L0 21
+R5
+r1
+31
+Z20 !s108 1511305023.197000
+Z21 !s107 C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/GPIO/GPIO.v|
+Z22 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/GPIO|C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/GPIO/GPIO.v|
+R9
+Z23 !s92 -vlog01compat -work work {+incdir+C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/GPIO} -O0
+n@g@p@i@o
+!i10b 1
+!s100 1MoD;dcS70`Gm7A[30:HP3
+!s85 0
+!s101 -O0
+vmaindec
+!i10b 1
+!s100 kc9b`3>Ah5JjMK=ITm<z51
+ImJ9A^F]71ALJzAlci];h?1
+VOelFHTN5fVgfD<g>aFnPX1
+R1
+R11
+R12
+R13
+L0 324
+R5
+r1
+!s85 0
+31
+R14
+R15
+R16
+!s101 -O0
+R9
+R10
+vmips
+!i10b 1
+!s100 2OYdG_Ca_Q1;c]eeh3i6f1
+Ig::ANbbVm=oFZ`LkcUOWV2
+VHdDElo1acD3zEHbdf=04<0
+R1
+R11
+R12
+R13
+L0 11
+R5
+r1
+!s85 0
+31
+R14
+R15
+R16
+!s101 -O0
+R9
+R10
+vMIPS_System
+I5Edjg=odIB=k0>RV_1YQX1
+VFO?6l3;=3I;;k7]a^0]g42
+R1
+w1511302963
+8C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/MIPS_System.v
+FC:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/MIPS_System.v
+L0 21
+R5
+r1
+31
+R9
+n@m@i@p@s_@system
+!i10b 1
+!s100 0A4Y=E;1MMcVhoKQXM3S]0
+!s85 0
+!s108 1511305022.629000
+!s107 C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/MIPS_System.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System|C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/MIPS_System.v|
+!s101 -O0
+!s92 -vlog01compat -work work {+incdir+C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System} -O0
+vmux2
+IAkz`D3aLUKHU3Z8XFieKj1
+VT8RWJBjAIeM]>7U=5kBkT1
+R1
+R2
+R3
+R4
+L0 291
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 FOL35g0M9GOf`k=QiVj9U3
+!s85 0
+!s101 -O0
+vmux3
+IBf?mdF:0Xe^;XAiC2ZA3=2
+VOUmeXZ?F<IJFMY21E797h2
+R1
+R2
+R3
+R4
+L0 303
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 j<^a:<[fn^VOjL7[g_5;M3
+!s85 0
+!s101 -O0
+vpulse_gen
+Icoj_8F>l0[iLXKGEc:`RN2
+Vzj7fbHTOAPGHl]4LN::<01
+R1
+R17
+R18
+R19
+L0 187
+R5
+r1
+31
+R20
+R21
+R22
+R9
+R23
+!i10b 1
+!s100 MUK;98lkD7j;iUIL:XFGN3
+!s85 0
+!s101 -O0
+vram2port_inst_data
+I[_N7U[UP<cZGRLO_H4C]n1
+VjzSe9fMaaodOn:WC06EPN2
+R1
+w1511302991
+8C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Altera_Mem_Dual_Port/ram2port_inst_data.v
+FC:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Altera_Mem_Dual_Port/ram2port_inst_data.v
+L0 39
+R5
+r1
+31
+R9
+!i10b 1
+!s100 SgC25]Dje=9N^l3EKmS1_1
+!s85 0
+!s108 1511305022.525000
+!s107 C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Altera_Mem_Dual_Port/ram2port_inst_data.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Altera_Mem_Dual_Port|C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Altera_Mem_Dual_Port/ram2port_inst_data.v|
+!s101 -O0
+!s92 -vlog01compat -work work {+incdir+C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Altera_Mem_Dual_Port} -O0
+vregfile
+IkGiimAfNbolk0d@=WA>gU2
+VoEfJZgI?@czGGfSOSdz_g3
+R1
+R2
+R3
+R4
+L0 13
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 P;@cJHnfkZ;V69_n^ZW:Z2
+!s85 0
+!s101 -O0
+vshift_left_16
+Ia86cnDP=:dianDC`;Ge8B0
+V;Rg@l^a_VE_7Odbmd^>212
+R1
+R2
+R3
+R4
+L0 250
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 09eECjUi7F9<57SiFW1NS1
+!s85 0
+!s101 -O0
+vsign_zero_ext
+IlH^C6N4`ES39ZnHSgF^zo2
+V>>JeOTJFFWY8K9NY8L=991
+R1
+R2
+R3
+R4
+L0 236
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 ;1RQeDfZOF3`aKZcQ`]ZH3
+!s85 0
+!s101 -O0
+vsl2
+I?3e5a<l37<aXGG9;FlN]j1
+VMHGRbO<8oJM:TjGW_j2PX2
+R1
+R2
+R3
+R4
+L0 227
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 nHPMHET^QKYG@PD3CY_0_0
+!s85 0
+!s101 -O0
+vTimerCounter
+I1Pd::8N[e3IQOOV90=RWc3
+V?6SiADLzC[nVUWOhUg7E;3
+R1
+w1283850562
+8C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Timer/TimerCounter.v
+FC:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Timer/TimerCounter.v
+L0 3
+R5
+r1
+31
+R9
+n@timer@counter
+!i10b 1
+!s100 K>>gWA2EF?@98EBXeMoPQ2
+!s85 0
+!s108 1511305022.735000
+!s107 C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Timer/TimerCounter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Timer|C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Timer/TimerCounter.v|
+!s101 -O0
+!s92 -vlog01compat -work work {+incdir+C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Timer} -O0

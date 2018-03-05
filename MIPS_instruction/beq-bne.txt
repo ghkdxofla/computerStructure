@@ -1,0 +1,9 @@
+처음엔 beq-bne가 반대라 0, 1 바꾸려고 했으나
+
+google에서는 branch를 2bit로 하래서 그렇게 함
+
+그리고 mux를 하나 더 달려고 했는데
+
+그냥 간단하게 0, 1만 바꿔 공급하면 되는거였다...
+
+assign pcsrc = branch & (op == 6'b000100 ? zero : ~zero)

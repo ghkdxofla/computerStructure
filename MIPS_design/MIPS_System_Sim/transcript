@@ -1,0 +1,18 @@
+vsim work.MIPS_System_tb
+# vsim work.MIPS_System_tb 
+add wave -position insertpoint sim:/MIPS_System_tb/MIPS_System_dut/mips_cpu/*
+run 10us
+# Compile of MIPS_System.v was successful.
+# Compile of MIPS_System_tb.v was successful.
+# Compile of mips.v was successful.
+# Compile of mipsparts.v was successful.
+# Compile of ram2port_inst_data.v was successful.
+# Compile of ALTPLL_clkgen.v was successful.
+# Compile of Addr_Decoder.v was successful.
+# Compile of GPIO.v was successful.
+# Compile of TimerCounter.v was successful.
+# 9 compiles, 0 failed with no errors. 
+restart
+run 10us
+run 10us
+run 100us

@@ -1,0 +1,68 @@
+OP안에
+
+OP 000000 - R
+LW
+SW
+BEQ
+ADDI, ADDIU
+ORI
+LUI
+J
+
+ALUOP
+add
+sub
+or
+(연산자)
+
+funct
+ADD, ADDU
+SBU, SUBU
+AND
+OR
+SLT
+
+사용되는 것
+verilog_1
+lui
+addiu
+j
+nop
+sw
+move(뭐랑 뭘까)
+ori
+lw
+li(lui+ori)
+
+verilog_2
+추가로 구현 해야되는 것
+sltu(Ltype)
+bnez(Ltype)
+
+
+verilog_3
+jal(Jtype)
+jr(Jtype)
+
+6'b000000: controls <= #`mydelay 11'b00110000011; // Rtype
+
+
+
+현재 구현됨
+
+jal
+bne
+sltu
+
+
+jr, jal은 mux를 3, 4바꾸는 하버드식으로 해본다(원래꺼는 안됐음...)
+
+10은 j
+01은 jal - regdst mux3, resmux mux3
+
+control[12:0] 이 포인트!
+wire도 모두 [1:0]으로 줌
+
+jr은 01일때 이므로
+
+합쳤다...

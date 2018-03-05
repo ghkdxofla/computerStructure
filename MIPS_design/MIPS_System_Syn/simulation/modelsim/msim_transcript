@@ -1,0 +1,99 @@
+# Reading C:/Development Tools/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do MIPS_System_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\Development Tools\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\Development Tools\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Development\ Tools/Test\ Bench/MIPS_design_original/MIPS_System/Altera_Mem_Dual_Port {C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Altera_Mem_Dual_Port/ram2port_inst_data.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ram2port_inst_data
+# 
+# Top level modules:
+# 	ram2port_inst_data
+# vlog -vlog01compat -work work +incdir+C:/Development\ Tools/Test\ Bench/MIPS_design_original/MIPS_System {C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/MIPS_System.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MIPS_System
+# 
+# Top level modules:
+# 	MIPS_System
+# vlog -vlog01compat -work work +incdir+C:/Development\ Tools/Test\ Bench/MIPS_design_original/MIPS_System/Timer {C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Timer/TimerCounter.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module TimerCounter
+# 
+# Top level modules:
+# 	TimerCounter
+# vlog -vlog01compat -work work +incdir+C:/Development\ Tools/Test\ Bench/MIPS_design_original/MIPS_System/MIPS_CPU {C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/MIPS_CPU/mipsparts.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module regfile
+# -- Compiling module alu
+# -- Compiling module adder
+# -- Compiling module sl2
+# -- Compiling module sign_zero_ext
+# -- Compiling module shift_left_16
+# -- Compiling module flopr
+# -- Compiling module flopenr
+# -- Compiling module mux2
+# -- Compiling module mux3
+# 
+# Top level modules:
+# 	regfile
+# 	alu
+# 	adder
+# 	sl2
+# 	sign_zero_ext
+# 	shift_left_16
+# 	flopr
+# 	flopenr
+# 	mux2
+# 	mux3
+# vlog -vlog01compat -work work +incdir+C:/Development\ Tools/Test\ Bench/MIPS_design_original/MIPS_System/GPIO {C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/GPIO/GPIO.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module GPIO
+# -- Compiling module pulse_gen
+# 
+# Top level modules:
+# 	GPIO
+# vlog -vlog01compat -work work +incdir+C:/Development\ Tools/Test\ Bench/MIPS_design_original/MIPS_System/Decoder {C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Decoder/Addr_Decoder.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Addr_Decoder
+# 
+# Top level modules:
+# 	Addr_Decoder
+# vlog -vlog01compat -work work +incdir+C:/Development\ Tools/Test\ Bench/MIPS_design_original/MIPS_System/Altera_PLL {C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/Altera_PLL/ALTPLL_clkgen.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALTPLL_clkgen
+# 
+# Top level modules:
+# 	ALTPLL_clkgen
+# vlog -vlog01compat -work work +incdir+C:/Development\ Tools/Test\ Bench/MIPS_design_original/MIPS_System_Syn/db {C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System_Syn/db/altpll_clkgen_altpll.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALTPLL_clkgen_altpll
+# 
+# Top level modules:
+# 	ALTPLL_clkgen_altpll
+# vlog -vlog01compat -work work +incdir+C:/Development\ Tools/Test\ Bench/MIPS_design_original/MIPS_System/MIPS_CPU {C:/Development Tools/Test Bench/MIPS_design_original/MIPS_System/MIPS_CPU/mips.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mips
+# -- Compiling module ff_FD
+# -- Compiling module ff_DE
+# -- Compiling module ff_EM
+# -- Compiling module ff_MW
+# -- Compiling module forwarding
+# -- Compiling module controller
+# -- Compiling module maindec
+# -- Compiling module aludec
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	mips
+# 	forwarding
+# 
+vsim work.MIPS_System
+# vsim work.MIPS_System 
+# Error loading design

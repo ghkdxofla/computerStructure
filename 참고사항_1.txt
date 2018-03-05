@@ -1,0 +1,1 @@
+그려놨던 quartus scheme는 .bdf파일로 어딘가에 있다!

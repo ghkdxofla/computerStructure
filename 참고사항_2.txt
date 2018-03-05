@@ -1,0 +1,96 @@
+해야할 일
+
+1. flip-flop 만들기
+2-1. wire 나누기
+2-2. 경로 다시 해야됨(lw)
+2-3. control signal 분류하기
+2-4. memread 넣기
+3. forwarding unit 만들기
+4. hazard detection unit 만들기
+
+
+
+
+1-1. IF/ID : instr을 처리해야됨
+
+2-3. control signal 분류하기
+
+#signext, #shiftl16, $memtoreg, $memwrite, $pcsrc, $alusrc, $regdst, $regwrite, &jump, $alucontrol, &jrjump
+
+204. memread 넣기
+++++ memread!!!
+.rden_b (1'b1));
+포트 연결하기!
+
+
+
+
+EX stage : alusrc, regdst, alucontrol
+
+MEM stage : pcsrc(branch + zero), memwrite, memread!!!!
+
+WB stage : memtoreg, regwrite
+
+총 8개
+
+일단 aludec ad를 controller로 빼고
+wire도 다 빼내야 한다
+
+zero도 개 힘든 처리 해야됨
+alu에서 나온 zero를 flip-flop으로...
+branch 11 beq, 10 bne 구별과 zero 합쳐서...
+
+zero는 00, 11
+
+and 해서 10이면 pcsrc 
+11이면 pcsrc 
+
+signal 묶는거를 datapath 밖에서 해주고 들어와야겠네...
+
+stall 들 수정하기 mipsparts - flopr, mips - IF/ID, 
+
+control signal delay 보기
+
+memory는 read가 항상 가능하게 해놓고
+mux를 설치하여 판별하는게 더 낫다
+
+문제 1. alucontrol, jrjump의 파란 라인... - 해결
+문제 2. clk에 따르지 않는 pc - 해결
+문제 3. memread mux 만들기 - 해결
+문제 4. alu 관련 라인 정리하기... -해결
+문제 5. memwrite, memaddr, memwritedata, memreaddata................ -해결...?
+
+
+문제 6. jump signal의 위치......?(나중에 수정해보자)
+
+a와 b가 잘못들어오고 있다!
+wd 이상무
+
+alusrc_D, regdst_D, aluop_D,
+                         branch_D, memwrite_IN, memread_D,
+                         memtoreg_D, regwrite_D
+레지스터 처리하기
+
+문제 7. W와 D에서의 writedata가 forwarding이 필요하다!!!
+w에서 나오는 것은 result고, D에서는 rd2? 아니면 rd1(얘랑 저 스테이지에서 겹치므로...)
+
+영상 설명에서 빠진 부분이 있어 코멘트로 추가합니다.
+
+파이프라인 설계 시 어디에 어떤 와이어를 넣고, 포워딩, hdu를 해야하는지는 modelsim으로 기존의 single cycle MIPS의 결과와 pipeline의 결과를 비교하면서, 각 instruction이 들어오고, execution stage에서 잘 작동이 되는지를 알아본다면 두 번의 clock cycle 뒤의 wire와 module들의 input, output을 비교하면서 어디가 빠졌는지를 알아보았습니다. 교수님께서 참고용으로 주셨던 pipeline execution diagram또한 참고하여 확인할 수 있었습니다.
+
+
+
+
+
+
+
+
+새로운 마음으로...
+
+control hazard 추가하기
+
+일단 adder는 ex stage에서 해두고 이걸 바로 넘기는 식으로!
+mux의 라인을 만들자
+
+흠... jump instr가 문제네...
+read된 register를 비교해서 이를 signal로
